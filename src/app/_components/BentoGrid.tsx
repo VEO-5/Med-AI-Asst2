@@ -14,7 +14,7 @@ import { motion } from "motion/react";
 
 export function BentoGridThirdDemo() {
     return (
-        <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
+        <BentoGrid className="max-w-4xl mx-auto my-12 md:auto-rows-[20rem]">
             {items.map((item, i) => (
                 <BentoGridItem
                     key={i}
@@ -352,3 +352,5 @@ const items = [
         icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
     },
 ];
+export { BentoGrid };
+

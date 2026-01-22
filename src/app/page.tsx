@@ -1,7 +1,11 @@
 "use client";
 
 
+import { IconBoxAlignRightFilled } from "@tabler/icons-react";
 import { motion } from "motion/react";
+import { BentoGridThirdDemo } from "./_components/BentoGrid";
+
+
 
 export default function HeroSectionOne() {
   return (
@@ -98,6 +102,7 @@ export default function HeroSectionOne() {
             />
           </div>
         </motion.div>
+        <BentoGridThirdDemo />
       </div>
     </div>
   );
